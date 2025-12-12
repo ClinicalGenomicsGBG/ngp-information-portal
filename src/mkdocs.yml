@@ -1,0 +1,134 @@
+site_name: NGP Information Portal
+site_url: https://genmed.se
+site_dir: public
+theme:
+    name: material
+    custom_dir: overrides
+    language: en
+    logo: assets/logo.png
+    favicon: assets/favicon.ico
+    icon:
+        admonition:
+                note: fontawesome/solid/note-sticky
+                abstract: fontawesome/solid/book
+                info: fontawesome/solid/circle-info
+                tip: fontawesome/solid/bullhorn
+                success: fontawesome/solid/check
+                question: fontawesome/solid/circle-question
+                warning: fontawesome/solid/triangle-exclamation
+                failure: fontawesome/solid/bomb
+                danger: fontawesome/solid/skull
+                bug: fontawesome/solid/robot
+                example: fontawesome/solid/flask
+                quote: fontawesome/solid/quote-left 
+        repo: fontawesome/brands/github
+        edit: material/pencil
+    features:
+        - content.action.edit
+        - content.code.copy
+        - content.tabs.link           
+        - search.suggest
+        - search.highlight
+        - search.share
+        - header.autohide
+        - announce.dismiss
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - navigation.indexes
+        - navigation.sections
+        - toc.integrate
+        - toc.follow
+# When sections are enabled, top-level sections are rendered as groups in the sidebar for viewports above 1220px, but remain as-is on mobile.        
+#       - navigation.sections
+# When expansion is enabled, the left sidebar will expand all collapsible subsections by default, so the user doesn't have to open subsections manually.
+#       - navigation.expand
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - bash
+        - powershell
+        - python
+        - java
+        - dos
+        - javascript
+        - json
+        - css
+        - html
+        - http
+        - tex
+        - excel
+        - django
+        - curl
+        - apache
+        - awk
+        - dockerfile
+        - markdown
+        - plaintext
+        - pgsql
+        - r
+        - ruby
+        - sql
+        - shell
+        - vba
+        - vbscript
+    palette:   
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode       
+plugins:
+    - tags:
+        tags_file: tags.md
+    - search:
+        lang: en
+        separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+    - git-revision-date-localized:
+        enable_creation_date: true
+        type: date
+        fallback_to_build_date: true          
+markdown_extensions:
+  - pymdownx.snippets:
+      auto_append:
+      - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+  - attr_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+extra:
+  version:
+    provider: mike
+    default: stable
+# extra_javascript:
+#   - scripts/js/tablesort.min.js
+#   - scripts/js/tablesort.js
