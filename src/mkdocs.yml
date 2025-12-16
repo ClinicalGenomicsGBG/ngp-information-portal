@@ -1,0 +1,4 @@
+site_name: NGP Information Portal
+site_url: https://www.genmed.se
+theme:
+  name: material
