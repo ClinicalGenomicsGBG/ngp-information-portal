@@ -1,8 +1,8 @@
 ---
-draft: true
 date: 2025-12-16
 categories:
     - Hello World
+    - News
 ---
 
 # Hello there!
