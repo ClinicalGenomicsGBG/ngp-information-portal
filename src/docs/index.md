@@ -1,5 +1,5 @@
 ---
-title: NGP Informationsportalen
+title: Hem
 hide:
     - navigation
 ---

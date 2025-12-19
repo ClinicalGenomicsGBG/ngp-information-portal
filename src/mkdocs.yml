@@ -13,7 +13,7 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.path
+    # - navigation.path # Breadcrumbs
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
@@ -24,11 +24,11 @@ theme:
     - search.suggest
     - toc.follow
   nav:
-  - Blog:
-    - news/index.md
-  - Home:
-    - index.md
-  - ngp/index.md
+  - Home: index.md
+  - Nyheter:
+    - Översikt: news/index.md
+  - Nationella genomikplattformen: 'Nationella genomikplattformen/index.md'
+  - Portaler: portaler/index.md
 plugins:
   - blog:
       blog_dir: news
