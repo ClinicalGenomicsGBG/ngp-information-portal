@@ -32,6 +32,7 @@ theme:
 plugins:
   - blog:
       blog_dir: news
+      authors: false
   - search
 extra_css:
   - css/custom.css

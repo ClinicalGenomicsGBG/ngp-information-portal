@@ -1,5 +1,6 @@
 ---
 date: 2025-12-16
+author: cggit
 categories:
     - Hello World
     - News
