@@ -2,5 +2,37 @@ site_name: NGP Information Portal
 site_url: https://www.genmed.se
 theme:
   name: material
+  language: sv
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # - navigation.path # Breadcrumbs
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  nav:
+  - Home: index.md
+  - Nyheter:
+    - Översikt: news/index.md
+  - Nationella genomikplattformen: 'Nationella genomikplattformen/index.md'
+  - Portaler: portaler/index.md
+plugins:
+  - blog:
+      blog_dir: news
+      authors: false
+  - search
 extra_css:
-  - css/custom.css   
+  - css/custom.css
