@@ -17,14 +17,14 @@ There are several parts of the NGP, and many services/entrypoints for users (mis
 
 ### Develop
 1. Make changes.
-1. Run `uv run mkdocs serve -cf src/mkdocs.yml` to test the app locally.
-
+1. Run `uv run mkdocs serve -f src/mkdocs.yml` to test the app locally.
+    1. Alternatively serve `mkdocs` on a different port with: `uv run mkdocs serve -f src/mkdocs.yml --dev-addr <IP:PORT>`
 
 ### Build
-- Run `uv run mkdocs build -cf src/mkdocs.yml -d ../public` to build the app
+- Run `uv run mkdocs build -cf src/mkdocs.yml -d ../public` to build the app.
   <u>**with**</u>
 warnings.
-- Run `uv run mkdocs build -cqf src/mkdocs.yml -d ../public` to build the app
+- Run `uv run mkdocs build -cqf src/mkdocs.yml -d ../public` to build the app.
   <u>**without**</u> warnings
 
 

@@ -33,3 +33,5 @@ plugins:
   - blog:
       blog_dir: news
   - search
+extra_css:
+  - css/custom.css
