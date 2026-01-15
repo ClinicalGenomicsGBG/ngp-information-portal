@@ -1,0 +1,11 @@
+# NGP repository (NGPr) - index.md
+The NGPr is a geographically distributed object storage manufactured by Hitachi, the Hitachi Content Platform (HCP). Data is spread over three sites within the VGR IT-infrastucture using Erasure-Coding. This technology can be colloquially described as “RAID for datacenters” where one of the sites can be knocked offline without any data loss. Total available storage space is 4.5 Pb, divided across partner regions according to population. The storage platform can be grown by adding more storage racks, almost indefinitely.
+
+Within the platform, data is divided by data owner using “tenants”, each tenant providing a secure storage environment where the owner region can maintain complete autonomy. Therefore, each region appoints a tenant administrator who will have complete ownership of the tenant and hold the admin credentials. After credential handover, HCP super-admins can’t access any controls or any data within the tenant, without explicit authorisation-action taken by the tenant administrator. In addition, the HCP super-admin cant delete a tenant that has data stored inside. 
+
+Each region is provided with their own tenant, denoted by their GMC-name and a tenant-identifier that is used for internal purposes within the HCP. Objects stored inside a tenant can be made available to other parties using Access Control Lists (ACL) that can be set on each individual object or groups of objects in a tenant. Setting and removing access rights to specific objects rests with the tenant administrator.
+
+To facilitate multicenter research projects where data ownership is shared, GMS also provide a shared tenant “gmc-joint”. By default, all organisations participating in GMS have access to the joint tenant, although part of the tenant can be restricted to a subset of parties, in cases where not all GMS partners participate in a project.
+
+Inside a tenant, data is divided into “buckets”, providing a convenient way of separating data used for different purposes, or coming from different sources. Each bucket works much like a regular file system on a PC, where objects (files) can be stored in a folder structure. The tenant admin can create buckets, and also set limits on how much data can be stored in a specific bucket.
+
