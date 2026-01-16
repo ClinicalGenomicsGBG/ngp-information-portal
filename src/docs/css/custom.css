@@ -1,16 +1,20 @@
 :root {
-    --md-primary-fg-color: #094976;
+    --md-primary-fg-color: #127bc6;
 }
 /* Header */
 .md-header,
 .md-header-nav,
-.md-header__inner,
+.md-header__inner {
+    background-color: #ffffff !important;
+    color: #1f2937 !important;}
+    
+/* Header - Tabs */
 .md-tabs {
-    background-color: #11427d !important;
+    background-color: #1187d6 !important;
 }
-/* background color */
+/* Background color */
 .md-main {
-  background-color: #f2f2f2;
+  background-color: #efefef;
 }
 /* Content area */
 .md-content {
@@ -19,15 +23,18 @@
   border-radius: 0.75rem;
   padding: 15px;
 }
-/* Sidebar links */
+/*  Links */
+.md-typeset a,
 .md-nav__link {
   color: #11427d !important;
 }
-/* Sidebar link hover */
+/*  Link hover */
+.md-typeset a:hover, 
 .md-nav__link:hover {
   color: #127bc6 !important;
 }
-/* Sidebar link active */
+/*  Link active */
+.md-typeset a:active,
 .md-nav__link--active {
   color: #127bc6 !important;
 }
@@ -49,18 +56,26 @@
   padding-top: 0;
   margin-left: 10px;
 }
-/* Hide site logo icon next to site name */
-.md-header__button.md-logo {
-    display: none;
+
+/* Adjust header logo size */
+.md-header__button.md-logo img {
+    height: 70px;
 }
-/* Hide logo in mobile menu  */
-.md-nav--primary .md-logo {
-    display: none !important;
-}
+
 /* Apply primary color to mobile header */
 @media (max-width: 76.25em) {
     :root {
-        --md-primary-fg-color: #094976;
+        --md-primary-fg-color: #ffffff;
     }
 }
 
+/* Increase site name size in header */
+.md-header__title {
+    font-size: 1.1rem;
+}
+
+/* Increase top navigation tabs text size */
+.md-tabs__link {
+    font-size: 0.8rem;
+    font-weight: 600;
+}

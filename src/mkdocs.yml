@@ -2,6 +2,7 @@ site_name: NGP Information Portal
 site_url: https://www.genmed.se
 theme:
   name: material
+  logo: assets/gms-logotyp.png
   language: sv
   features:
     - announce.dismiss
