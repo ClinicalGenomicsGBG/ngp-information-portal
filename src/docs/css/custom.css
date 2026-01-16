@@ -79,3 +79,8 @@
     font-size: 0.8rem;
     font-weight: 600;
 }
+
+/* Hide Material footer text */ 
+.md-footer-meta__inner {
+    display: none !important;
+}
