@@ -5,7 +5,7 @@ title: Title
 # :smile: Your title
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Projektstatus__
+-   :material-pulse:{ .lg .middle } __Projektstatus__
 
     ---
     
@@ -14,6 +14,7 @@ title: Title
     :material-pause-octagon:{ .lg .middle } Pausad
     :material-code-braces: Utvecklingsfas
     :material-test-tube:{ .lg .middle } Testfas
+    :material-map:{ .lg .middle } Planeringsfas
     
 
 </div>
