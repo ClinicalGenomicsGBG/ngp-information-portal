@@ -7,7 +7,7 @@ title: Portaler
 <div class="grid" markdown=span>
 
   <a href="feasibility-portal" class="card"> 
-      :pill: __NGP Feasability portal__ 
+    :pill: __NGP Feasability portal__ 
   </a>
   
   <a href="information-portal" class="card"> 
