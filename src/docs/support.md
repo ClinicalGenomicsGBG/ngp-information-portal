@@ -5,7 +5,7 @@ hide:
     - toc
 ---
 
-Om du behöver hjälp med något kan du nå oss via [ngp-support@gu.se](mailto:ngp-support@gu.se) eller genom att fylla i formuläret nedanför. Fyll i din mailadress, ärendets namn och beskriv så tydligt som möjligt vad du behöver häjlp med. 
+Om du behöver hjälp med något kan du nå oss via [ngp-support@gu.se](mailto:ngp-support@gu.se) eller genom att fylla i formuläret nedanför. Fyll i din mailadress, ärendets namn och beskriv så tydligt som möjligt vad du behöver hjälp med. 
 
 <script type="text/javascript" src="https://assets.freshservice.com/widget/freshwidget.js"></script>
 <style type="text/css" media="screen, projection">
