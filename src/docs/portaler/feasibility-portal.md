@@ -1,8 +1,8 @@
 ---
-title: NGP Feasability portal
+title: NGP Feasibility portal
 ---
 
-# :pill: NGP Feasability portal
+# :pill: NGP Feasibility portal
 <div class="grid cards" markdown>
 
 -   :material-pulse:{ .lg .middle } __Projektstatus__
