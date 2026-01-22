@@ -2,4 +2,4 @@
 title: NGP Information portal
 ---
 
-# NGP Information portal
+# :book: NGP Information portal

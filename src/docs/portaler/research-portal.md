@@ -2,4 +2,4 @@
 title: NGP Research portal
 ---
 
-# NGP Research portal
+# :microscope: NGP Research portal
