@@ -5,7 +5,7 @@ title: NGP Feasability portal
 # :pill: NGP Feasability portal
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Projektstatus__
+-   :material-pulse:{ .lg .middle } __Projektstatus__
 
     ---
     
@@ -14,7 +14,7 @@ title: NGP Feasability portal
     :material-pause-octagon:{ .lg .middle } Pausad
     :material-code-braces: Utvecklingsfas
     :material-test-tube:{ .lg .middle } Testfas
-    
+    :material-map:{ .lg .middle } Planeringsfas
 
 </div>
 
