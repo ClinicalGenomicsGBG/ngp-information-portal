@@ -4,8 +4,6 @@ title: Portaler
 
 # Portaler
 
-- [ ] Lägg in kort för varje portal som leder till varje portals dedikerade sida
-
 <div class="grid cards" markdown>
 
 - :pill: __NGP Feasability portal__
