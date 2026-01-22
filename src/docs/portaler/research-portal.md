@@ -1,6 +1,5 @@
 ---
-title: Research Portal
+title: NGP Research portal
 ---
 
-# Research Portal
-
+# NGP Research portal

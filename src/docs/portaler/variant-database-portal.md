@@ -1,6 +1,5 @@
 ---
-title: Variant-database Portal
+title: NGP Variant Database Portal
 ---
 
-# Variant-database Portal
-
+# NGP Variant Database Portal
