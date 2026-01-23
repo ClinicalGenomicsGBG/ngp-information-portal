@@ -24,6 +24,7 @@ title: NGP Research portal
     - GMS
 
 </div>
+
 ## Introduktion & Syfte
 NGP Research portal tillåter access till forskningsdata som är lagrad på [GMC Joint](). Detta tillåter enkel delning av data mellan alla GMCs. 
 
