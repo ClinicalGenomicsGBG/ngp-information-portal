@@ -1,8 +1,8 @@
 ---
-title: NGP Feasibility portal
+title: NGP Feasabilityportal
 ---
 
-# :pill: NGP Feasibility portal
+# :pill: NGP Feasabilityportal
 <div class="grid cards" markdown>
 
 -   :material-pulse:{ .lg .middle } __Projektstatus__
@@ -22,6 +22,6 @@ title: NGP Feasibility portal
 </div>
 
 ## Introduktion & Syfte
-NGP Feasibility portalen är en portal för antalsberäkningar med syfte att underlätta för klinkiska studier i Sverige. Genom att söka bland diagnoser i portalen får man en antalsberäkning av diagnoser per region, som i sin tur kan bli ett underlag för genomförbarheten av kliniska studier i Sverige.
+NGP Feasabilityportal är en portal för antalsberäkningar med syfte att underlätta för klinkiska studier i Sverige. Genom att söka bland diagnoser i portalen får man en antalsberäkning av diagnoser per region, som i sin tur kan bli ett underlag för genomförbarheten av kliniska studier i Sverige.
 
 Portalen använder sig av data samlad i [NGP](../Nationella genomikplattformen/index.md).

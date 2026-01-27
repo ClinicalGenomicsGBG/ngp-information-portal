@@ -1,10 +1,10 @@
 ---
-title: NGP Variant Database Portal
+title: NGP Variantdatabas
 ---
 
-# :cyclone: NGP Variant Database Portal
+# :cyclone: NGP Variantdatabas
 ## Introduktion & Syfte
-Målet med NGP Variant Database Portal är att bygga upp en databas med tolkade och otolkade varianter, samt kunna göra sökningar bland dessa. De tolkade varianterna laddas upp via portalen i form av Excel-filer. Dessa filer valideras baserad på en standardiserad mall i samband med uppladdningen. 
+Målet med NGP Variantdatabas är att bygga upp en databas med tolkade och otolkade varianter, samt kunna göra sökningar bland dessa. De tolkade varianterna laddas upp via en portal i form av Excel-filer. Dessa filer valideras baserad på en standardiserad mall i samband med uppladdningen. 
 
 Mallen innefattar fält som till exempel `CHR`,`POS`, `REF`, `ALT`, `Submitter`, `Submitter org`, `Classification` och `Classification score`. `Classification` och `Classification score` syftar på klassifiering från American College of Medical Genetics (ACMG).
 

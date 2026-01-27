@@ -1,8 +1,8 @@
 ---
-title: NGP Research portal
+title: NGP Forskningsportal
 ---
 
-# :microscope: NGP Research portal
+# :microscope: NGP Forskningsportal
 <div class="grid cards" markdown>
 
 -   :material-pulse:{ .lg .middle } __Projektstatus__
@@ -26,6 +26,6 @@ title: NGP Research portal
 </div>
 
 ## Introduktion & Syfte
-NGP Research portal tillåter access till forskningsdata som är lagrad på [GMC Joint](). Detta tillåter enkel delning av data mellan alla GMCs. 
+NGP Forskningsportal tillåter access till forskningsdata som är lagrad på [GMC Joint](). Detta tillåter enkel delning av data mellan alla GMCs. 
 
 Portalen använder sig av [SWAMID](https://www.sunet.se/services/identifiering/swamid) som är kopplad till lärosäten runt om i Sverige.
