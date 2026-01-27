@@ -60,18 +60,19 @@
 /* Apply primary color to mobile header */
 @media (max-width: 76.25em) {
     :root {
-        --md-primary-fg-color: #ffffff;
+        --md-primary-fg-color: #1187d6;
     }
-  /* Header background */
-  .md-header__inner,
-  .md-header {
-    background-color: #1187d6 !important; 
-  }
-  
-   /* Header text color */
-  .md-header .md-header-nav__title,
-  .md-header .md-header-nav__link {
-    color: #ffffff !important;
-  }
+    /* Header background */
+    .md-header__inner,
+    .md-header {
+      background-color: #1187d6 !important; 
+    }
+    
+    /* Header text color */
+    .md-header,
+    .md-header-nav,
+    .md-header__inner {
+      color: #ffffff !important;
+    }
 }
 
