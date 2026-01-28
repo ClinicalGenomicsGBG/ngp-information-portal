@@ -23,12 +23,16 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-  nav:
+nav:
   - Home: index.md
   - Nyheter:
     - Översikt: news/index.md
   - Nationella genomikplattformen: 'Nationella genomikplattformen/index.md'
   - Portaler: portaler/index.md
+not_in_nav: |
+  support.md
+exclude_docs: |
+  support.md
 plugins:
   - blog:
       blog_dir: news
