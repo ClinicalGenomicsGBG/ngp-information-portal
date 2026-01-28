@@ -23,12 +23,16 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-  nav:
+nav:
   - Home: index.md
   - Nyheter:
     - Översikt: news/index.md
   - Nationella genomikplattformen: 'Nationella genomikplattformen/index.md'
   - Portaler: portaler/index.md
+not_in_nav: |
+  support.md
+exclude_docs: |
+  support.md
 plugins:
   - blog:
       blog_dir: news
@@ -42,3 +46,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
